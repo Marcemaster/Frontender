@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/descargas.css">
 </head>
 <body>
     <nav class="navbar">
@@ -30,16 +31,18 @@
         </ul>
     </nav>
     <header class="header">
-        <h1 class='logo'>The Front<span>ender</span></h1>
-        <p>Enfréntate a tus bugs</p>
-        <p>Adéntrate en un mundo lleno de pixeles, lintings y protocolos 
-            que te acechan tras cada línea de código. ¿Te atreves?
-        </p>
+        <div class= "header-overlay"></div>
+        <div class= "header-content">
+            <h1 class='logo'>The Front<span>ender</span></h1>
+            <p class="tagline">Enfréntate a tus bugs</p>
+            <p class="promo-text">Adéntrate en un mundo lleno de pixeles, lintings y protocolos 
+                que te acechan tras cada línea de código. ¿Te atreves?
+            </p>
+        </div>
     </header>
-    <main>
+    <main class="container">
         <section id="el-juego">
 
-        </section>
             <h1>El juego</h1>
             <p>
                 <span class='logo'>THE Front<span>ender</span></span> es el nuevo juego creado por KeepGaming en el 
@@ -60,8 +63,11 @@
                  la última pantalla de internet: desde los más simples errores de linting
                   o errores 404 Not Found hasta la más temida de las páginas... 500 Server Error.
             </p>
-            <p>¿Quieres asumir el reto?</p>
-            
+            <p class="xl">
+                ¿Quieres asumir el reto?
+            </p>
+        </section>
+
         <section id="descargas">
             <h1>Descargas</h1>
             <p>
@@ -69,12 +75,12 @@
                 por supuesto online. Elige la que más te guste y ¡comienza a jugar!
             </p>
 
-            <ul>
-                <li><a href="#">PC</a></li>
-                <li><a href="#">XBOX</a></li>
-                <li><a href="#">PS4</a></li>
-                <li><a href="#">WEB</a></li>
-                <li><a href="#">PEGI16</a></li>
+            <ul class="descargas">
+                <li><a href="#"><img src="../img/platforms/pc.png" alt="PC"></a></li>
+                <li><a href="#"><img src="../img/platforms/xbox.png" alt="XBOX"></a></li>
+                <li><a href="#"><img src="../img/platforms/ps4.png" alt="PS4"></a></li>
+                <li><a href="#"><img src="../img/platforms/www.png" alt="WEB"></a></li>
+                <li><a href="#"><img src="../img/platforms/pegi.png" alt="PEGI16"></a></li>
 
             </ul>
         </section>
@@ -94,6 +100,7 @@
             <p>Crear la sección de super-malvados</p>
         </section>
     </main>
+
     <footer>
         <aside>
             <p>Enlaces de interés</p>
@@ -108,6 +115,4 @@
         </aside>
     </footer>
 </body>
-
-
 </html>
