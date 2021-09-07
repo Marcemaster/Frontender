@@ -8,7 +8,7 @@
 
 body {
     background-color: black;
-    color: whitesmoke;
+    color: var(--light-color);
 }
 
 
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #d65a31;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ a {
 }
 
 .logo span {
-    color: #d65a31;
+    color: var(--primary-color);
 }
 
 img {
